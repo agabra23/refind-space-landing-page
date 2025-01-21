@@ -13,6 +13,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.MuiButtonBase-root {
+  --IconButton-hoverBg: rgba(0, 0, 0, 0.05) !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 #root {
   height: 100%;
   width: 100%;
